@@ -5,21 +5,6 @@
 #include <string>
 
 
-//class Logic
-//{
-//
-//public:
-//    Logic(View* pView, Doc* pDoc);
-//
-//private:
-//    void DoLogic();
-//    void DoRequest(int nItem);
-//
-//private:
-//    View* myView;
-//    Doc* myDoc;
-//};
-
 class GraphController
 {
 public:
