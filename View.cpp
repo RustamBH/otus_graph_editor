@@ -20,8 +20,7 @@ int View::getMenuItem() const
 
 void View::showDoc(std::unique_ptr<Doc> pDoc) const
 {
-    (void)pDoc; 
-    //std::cout << "show a document" << std::endl;
+    (void)pDoc;    
 }
 
 Point2D View::getPoint() const
