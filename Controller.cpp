@@ -3,7 +3,6 @@
 #include <memory>
 
 
-
 GraphController::GraphController(std::unique_ptr<View> view, std::unique_ptr<Doc> doc)
 {
 	pView = std::move(view);
