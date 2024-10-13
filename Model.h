@@ -15,7 +15,7 @@ private:
     int y;      
 };
 
-class Figure //: public Point2D
+class Figure
 {
 public:
     Figure(Point2D _point) : m_center(_point) {}
