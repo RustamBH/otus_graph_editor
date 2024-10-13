@@ -8,8 +8,11 @@ project(graph_editor VERSION ${PROJECT_VESRION})
 add_executable(
 	graph_editor	
 	main.cpp
+	Controller.cpp
 	Controller.h
+	Model.cpp
 	Model.h
+	View.cpp
 	View.h
 )
 
